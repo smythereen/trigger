@@ -1,0 +1,5 @@
+# UNIT.deps for trigger
+# Evidence: #include <common.h>; #include <atomic_bump.h>; LIBRARIES := -lsys
+base 1
+require sys
+require atomic
